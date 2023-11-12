@@ -1,0 +1,39 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear --single"
+  },
+  "devDependencies": {
+    "@nx/netlify": "^16.8.1",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "invert-color": "^2.0.0",
+    "sirv-cli": "^1.0.0",
+    "svelte-drag-drop-touch": "^0.1.9",
+    "svelte-routing": "^1.6.0"
+  },
+  "description": "[![ALGO Visualizer v2.0]",
+  "main": "rollup.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeevana1234/Algo_Analyzer.git"
+  },
+  "author": "jeevana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeevana1234/Algo_Analyzer/issues"
+  },
+  "homepage": "https://github.com/jeevana1234/Algo_Analyzer#readme"
+}
