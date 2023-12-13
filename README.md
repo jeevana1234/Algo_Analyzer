@@ -7,3 +7,5 @@ Algo Visualizer is a tool for visualizing Fundamental Algorithms in Sorting, Sea
 
 1. Clone this project: ```git clone this page url```
 2. Run locally: ```npm run dev```
+
+Here is the link of the website: https://algo-analyzerv2.netlify.app/
